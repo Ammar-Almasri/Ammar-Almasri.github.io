@@ -399,6 +399,33 @@ section.visible {
 [dir="rtl"] .lang-ar {
     display: inline;
 }
+/* About Section */
+.about {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+
+.about-content p {
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* RTL Support */
+[dir="rtl"] .about-content p {
+    text-align: center;
+    line-height: 2;
+}
 /* Responsive */
 @media (max-width: 768px) {
     h1 {
